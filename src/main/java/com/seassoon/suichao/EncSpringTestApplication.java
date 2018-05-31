@@ -16,8 +16,8 @@ public class EncSpringTestApplication {
 		System.out.println("start str=" + str0);
 		SpringApplication.run(EncSpringTestApplication.class, args);
 //		Test1 test1 = new Test1();
-//		String str = Test1.getStr();
-//		System.out.println("start str=" + str);
+		String str = Test1.getStr();
+		System.out.println("start str=" + str);
 	}
 
 	
